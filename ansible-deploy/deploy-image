@@ -1,0 +1,8 @@
+---
+- name: Pull Docker Image
+  hosts: localhost
+  tasks:
+    - name: Pull calculator-devops image
+      docker_image:
+        name: jyotsnatata/junit-devops
+        source: pull
