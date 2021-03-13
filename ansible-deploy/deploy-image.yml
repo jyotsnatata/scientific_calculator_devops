@@ -4,5 +4,5 @@
   tasks:
     - name: Pull calculator-devops image
       docker_image:
-        name: jyotsnatata/junit-devops
+        name: jyotsnatata/calculator-devops
         source: pull
